@@ -1,0 +1,44 @@
+#info{
+    margin-top: 30px;
+    width: 100%;
+}
+#info .about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#info .info img{
+    width: 280px;
+}
+.art{
+    margin: 10px;
+    float: left;
+    max-width: 480px;
+}
+.art p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 25px;
+}
+.art h3{
+    color: #56acae;
+    font-size: 25px;
+    font-weight: 500;
+}
+.about a{
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 2px solid #56acae;
+}
+.about a:link{
+    color: #56acae;
+}
+.about a:visited{
+    color: #56acae;
+}

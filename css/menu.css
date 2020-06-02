@@ -1,0 +1,47 @@
+.menu-caja{
+    background-color: #7fcec9;
+    width: 100%;
+    height: 50px;
+}
+
+/* IDEA: Controla las rayitas del menu */
+.menu-caja label{
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    margin: 6px 10px;
+    cursor: pointer;
+}
+.menu-caja #menu-bar{
+    display: none;
+}
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+.menu a:hover{
+    background: rgba(65, 166, 160, 0.5);
+}
+/* IDEA: Anima el menu cuando se hace pequeña la pantalla */
+.menu{
+    top: 50;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(51,51,51,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 100;
+}
+
+.menu a{
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(67, 171,164,0.5);
+    color: #fff;
+}
